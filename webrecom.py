@@ -1,5 +1,4 @@
 import streamlit as st
-$ pip install -U streamlit-webrtc==0.31.1
 import streamlit_webrtc
 from streamlit_webrtc import webrtc_streamer
 import av
