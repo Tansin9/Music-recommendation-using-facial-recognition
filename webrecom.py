@@ -1,5 +1,7 @@
 import streamlit as st
-
+import pkg_resources
+pkg_resources.require("streamlit-webrtc==0.31.1")
+import streamlit_webrtc
 from streamlit_webrtc import webrtc_streamer
 import av
 import cv2 
