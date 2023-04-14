@@ -1,5 +1,5 @@
 import streamlit as st
-import streamlit_webrtc==0.31.1 
+
 from streamlit_webrtc import webrtc_streamer
 import av
 import cv2 
