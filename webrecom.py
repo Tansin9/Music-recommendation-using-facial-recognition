@@ -1,6 +1,6 @@
-import streamlit as st
-import streamlit_webrtc
-from streamlit_webrtc import webrtc_streamer
+import streamlit==1.4.0 as st
+import streamlit-webrtc>=0.34.1
+from streamlit-webrtc import webrtc_streamer
 import av
 import cv2 
 import numpy as np 
