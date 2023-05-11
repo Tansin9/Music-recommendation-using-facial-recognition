@@ -1,6 +1,6 @@
 import streamlit as st
-import streamlit-webrtc
-from streamlit-webrtc import webrtc_streamer
+import streamlit_webrtc
+from streamlit_webrtc import webrtc_streamer
 import av
 import cv2 
 import numpy as np 
