@@ -5,7 +5,8 @@ Created a project that involves capturing the user's facial expression and using
 
 ## Architecture
 
-![FACEPROJECTARC](https://github.com/Tansin9/Music-recommendation-using-facial-recognition/assets/130788893/9ac5d35a-b48b-4be8-a3c1-26d1a524ab51)
+
+![FACEPROJECTARC](https://github.com/Tansin9/Music-recommendation-using-facial-recognition/assets/130788893/b6cf8d02-8b54-4390-91a0-0259bec3fae8)
 
 System architecture consist of three parts data collection, model training &
 Emotion detection and music recommendation.
@@ -38,7 +39,8 @@ movements.
 A library called Mediapipe is used to detect and extract the landmark data from the user's face and hands. It then stores this data as a list of coordinates for each frame of the video stream. Once the user has collected enough data, the code saves the data as a numpy array file with the
 input name. The numpy array file can be used later for model training or emotion detection.
 
-![FACEPROJECTDATACOLL](https://github.com/Tansin9/Music-recommendation-using-facial-recognition/assets/130788893/fa5d7931-129a-4a9f-a242-6e0d75d06f55)
+![FACEPROJECTDATACOLL](https://github.com/Tansin9/Music-recommendation-using-facial-recognition/assets/130788893/123c87ff-16d4-4c12-9e64-87e280a81e8a)
+
 
 
 ### Model training
@@ -60,9 +62,11 @@ recognize a person's facial expression. It uses a webcam to capture the user's e
 
 
 
-![FACEPROJECTPREDICT](https://github.com/Tansin9/Music-recommendation-using-facial-recognition/assets/130788893/c62ff017-1349-4b09-839f-4fbf80a85e0b)
+![FACEPROJECTPREDICT](https://github.com/Tansin9/Music-recommendation-using-facial-recognition/assets/130788893/5a34c60f-c0e9-44b7-8a50-9fa083272416)
+
 
 ### Result:
 
 
-![FACEPROJECTRESULT](https://github.com/Tansin9/Music-recommendation-using-facial-recognition/assets/130788893/9004e255-9fcb-47ee-b7b3-e83ab429325a)
+![FACEPROJECTRESULT](https://github.com/Tansin9/Music-recommendation-using-facial-recognition/assets/130788893/62e1c1c4-f0e2-447e-894e-543d4c1d9496)
+
